@@ -79,6 +79,20 @@ const btnFour = document.querySelector("#buttonFour")
 
 btnFour.addEventListener("click", function(e){
 
-    e.preventDefault
+    e.preventDefault()
+
+    const value = document.querySelector("#numero")
+    const imparOrPar = value.value % 2
+    console.log(value.value)
+    console.log(imparOrPar)
+    if(imparOrPar == 0){
+        resultFour.innerHTML = `O número ${value.value} é par`
+        console.log('O número ' + value.value + ' é par')
+     
+    } else{
+        resultFour.innerHTML = `O número ${value.value} é ímpar`
+        console.log('O número ' + value.value + ' é impar')
+        
+    }
     
 })
