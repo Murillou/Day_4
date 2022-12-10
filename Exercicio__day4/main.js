@@ -73,7 +73,6 @@ btnTree.addEventListener("click", function(e){
     
 })
 
-//// incompleto 
 
 const btnFour = document.querySelector("#buttonFour")
 
